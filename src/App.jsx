@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import Projectlist from './components/Projectslist'
-
+import Searchprojects from './components/Searchprojects'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [projects, getProjects] = useState([]);
+  const [searchWord, setSearchWord] = useState("")
+  const [results, setResults] =useState([])
 
   return (
     <div className='flex flex-col min-h-screen justify-center items-center '>
@@ -30,13 +32,11 @@ function App() {
           </form>
         </div>
 
-        <div className=' bg-gray-300 border rounded-md mx-6 my-4.5 px-4 py-3'>
-          <div>
-            <input type="text" placeholder='Search Projects' className='bg-white rounded-md px-3 border'/>
-          </div>
+        <Searchprojects  projects={projects} searchWord={searchWord} setSearchWord={setSearchWord} setResults={setResults}/>
 
-          <div >
-            <Projectlist/>
+        <div className=' flex flex-col  border border-t-0 rounded-b-md mx-6 mb-4 py-2'>
+          <div className='bg-white px-4 '>
+            <Projectlist projects={projects} getProjects={getProjects} searchWord={searchWord} results={results}/>
           </div>
         </div>
       </div>
