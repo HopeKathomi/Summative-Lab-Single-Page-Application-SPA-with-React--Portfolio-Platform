@@ -1,34 +1,35 @@
 {
-  "projects":  [
+  "projects": [
     {
-      "id": 1,
+      "id": "1",
       "project_name": "Nairobi Expressway Expansion & Drainage Upgrade",
       "description": "Civil engineering works focusing on modern drainage channels, ramp structural reinforcements, and asphalt resurfacing along the Mombasa Road corridor.",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c"
     },
     {
-      "id": 2,
+      "id": "2",
       "project_name": "Lake Turkana Wind Power Grid Integration",
       "description": "Substation upgrades, high-voltage transmission lines, and automated load-balancing systems to optimize renewable power injection into the national grid.",
       "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7"
     },
     {
-      "id": 3,
+      "id": "3",
       "project_name": "Olkaria Geothermal Steam Field Optimization",
       "description": "Pipeline engineering and smart pressure-relief systems to maximize high-temperature steam delivery to power generating units in Naivasha.",
       "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
     },
     {
-      "id": 4,
+      "id": "4",
       "project_name": "Konza Technopolis Smart Water & Utility Ducting",
       "description": "Design and installation of underground utility tunnels, automated wastewater recycling facilities, and fiber-optic conduits for the smart city development.",
       "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd"
     },
     {
-      "id": 5,
+      "id": "5",
       "project_name": "Mombasa Port Container Terminal Automation",
       "description": "Structural reinforcement of deep-water quays alongside the integration of automated ship-to-shore gantry crane telemetry and power systems.",
       "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec"
     }
-  ]
+  ],
+  // "$schema": "./node_modules/json-server/schema.json"
 }
