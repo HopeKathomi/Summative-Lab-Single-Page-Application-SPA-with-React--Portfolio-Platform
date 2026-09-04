@@ -33,7 +33,7 @@ const Addproject = ({project}) => {
             <form className='flex flex-col gap-4'>
                 <label htmlFor="title" className='flex flex-col'>
                     Title
-                    <input type="text" name='project_name' value={input.project_name} onChange={getInput} className='bg-white shadow-slate-300 shadow-md border border-slate-400 rounded-md px-3 py-2' />
+                    <input type="text" name='project_name' value={input.project_name} onChange={getInput} className='bg-white border  border-slate-400 rounded-md px-3 py-2' />
                 </label>
 
                 <label htmlFor="description" className='flex flex-col'>
