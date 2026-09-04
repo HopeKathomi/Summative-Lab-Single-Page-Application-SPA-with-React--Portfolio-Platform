@@ -39,6 +39,13 @@ src/
 db.json
 package.json
 ```
+## Screenshot
+
+<img src="./public/images/Screenshot 2026-09-04 221631.png" alt="Screen shot 1" width="800">
+
+<img src="./public/images/Screenshot 2026-09-04 221654.png" alt="search-Screenshot" width="800">
+
+
 
 ## How It Works
 
@@ -52,6 +59,7 @@ The form collects:
 
 * Project title
 * Project description
+
 
 When the user clicks **Add**, the component sends a `POST` request to JSON Server.
 
