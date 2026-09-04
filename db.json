@@ -31,5 +31,5 @@
       "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec"
     }
   ],
-  // "$schema": "./node_modules/json-server/schema.json"
+  "$schema": "./node_modules/json-server/schema.json"
 }

@@ -12,7 +12,7 @@ const Displayprojects = ({projects, getProjects, searchWord, results}) => {
     const displayedProjects = results.length === 0 ? projects : results;
 
   return (
-    <div className=' flex flex-col  border border-t-0 rounded-b-md mx-6     mb-4 py-2'>
+    <div className=' flex flex-col mx-6 my-4 py-2 w-180'>
       <div className='bg-white px-4 '>
       {displayedProjects.map(project=>(
         searchWord === "" ?

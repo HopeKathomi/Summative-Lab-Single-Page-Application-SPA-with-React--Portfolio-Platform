@@ -23,9 +23,9 @@ const Searchprojects = ({projects, searchWord, setSearchWord, setResults}) => {
     }
     
   return (
-    <div className='bg-gray-300 flex justify-center py-4'>
-        <form onSubmit={handleSubmit}>
-            <input type="search" placeholder='Search Projects' value={searchWord} onChange={handleChange} className='bg-white rounded-md px-3 border '/>
+    <div className='flex justify-center py-4'>
+        <form onSubmit={handleSubmit} className='flex w-full h-10'>
+            <input type="search" placeholder='Search Projects' value={searchWord} onChange={handleChange} className='bg-white rounded-md px-3 border border-gray-300 shadow-md w-full'/>
         </form>
         
     </div>
